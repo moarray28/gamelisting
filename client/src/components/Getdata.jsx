@@ -43,7 +43,7 @@ export default function Getdata({query,searchbool}) {
     };
 
     fetchGames();
-  }, [query, selectedGenres, searchbool]);
+  }, [selectedGenres, searchbool]);
 
 
 
