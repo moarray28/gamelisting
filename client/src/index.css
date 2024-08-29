@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Outfit';
+
+}
+
+
+
+.textglow {
+  /* Applying multiple text shadows to create a gradient effect */
+  color:#ecebf2;
+  text-shadow: 
+     /* Deep Pink */
+    
+    0px 3px 3px #4d0a69, /* Dark Purple */
+    0px 0px 20px #37176f; /* Purple */
+}
+
+body {
+  @apply bg-light-gradient text-light-text  ;
+}
+
+body.dark {
+  @apply bg-dark-gradient  text-dark-text;
+}
+
+ 
